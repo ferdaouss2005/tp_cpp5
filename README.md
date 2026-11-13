@@ -20,4 +20,7 @@ Dans cet exercice, j’ai créé une classe `Produit` contenant le nom et le pri
 
 # Exercice 3 : Gestion des sessions utilisateurs
 
+<img width="275" height="188" alt="image" src="https://github.com/user-attachments/assets/2a22798a-8733-4899-b34f-875e957017ed" />
+
+
 Dans cet exercice, j’ai créé une classe `Utilisateur` contenant le nom et le rôle de chaque utilisateur. J’ai utilisé un attribut statique privé `nbUtilisateursConnectes` pour suivre le nombre d’utilisateurs actuellement connectés. J’ai implémenté un constructeur qui incrémente le compteur lors de la connexion d’un utilisateur et un destructeur qui le décrémente lors de sa déconnexion. J’ai également ajouté une méthode statique `getNbUtilisateursConnectes()` pour accéder au nombre d’utilisateurs connectés. Dans la fonction `main()`, j’ai utilisé les pointeurs, `new` et `delete` pour simuler les connexions et les déconnexions de plusieurs utilisateurs. Cet exercice m’a permis de comprendre les attributs statiques, les méthodes statiques et la gestion dynamique de la mémoire en C++.
